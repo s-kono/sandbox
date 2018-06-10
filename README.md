@@ -14,6 +14,13 @@ https://help.github.com/articles/about-readmes/
 
  ---
 
+ - [ ] 未完了タスク 1
+ - [x] 完了タスク 1
+ - [ ] 未完了タスク 2
+ - [x] 完了タスク 2
+
+ ---
+
 ![image avatar][]
 
  * [local link](etc/AAAA.md)
