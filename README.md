@@ -54,3 +54,26 @@ $ date
 [image cat]: etc/20150515204011_p.jpg "猫"
 [image avatar]: https://avatars2.githubusercontent.com/u/1390541?s=100&v=4 "avatar"
 
+---
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor client
+    participant form as 申請システム
+    actor suport
+    participant system as 設定システム
+    client->>form: 申請
+    form->>suport: 通知
+    Note left of suport: チャット
+    form->>client: 受付連絡
+    Note left of form: メール
+    suport->>suport: 内容チェック
+    suport->>form: (不正な場合) リジェクト
+    form->>client: (不正な場合) 却下連絡
+    Note left of form: メール
+    suport->>system: 設定
+    system->>form: 完了通知
+    form->>client: 完了連絡
+    Note left of form: メール
+```
