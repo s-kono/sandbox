@@ -56,6 +56,8 @@ $ date
 
 ---
 
+## Mermaid
+
 ```mermaid
 sequenceDiagram
     autonumber
