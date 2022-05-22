@@ -10,6 +10,13 @@
 > :warning: warning
 > warning 
 
+---
+
+* https://github.blog/2022-05-19-math-support-in-markdown/
+
+$$ F = G \frac{M m}{r^2}  $$
+
+
 # 111
 
 https://help.github.com/articles/about-readmes/
