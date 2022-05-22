@@ -1,3 +1,14 @@
+> **Note** note
+> note
+
+> **Warning** Warn
+> Warn
+
+> :information_source: info
+> info
+
+> :warning: warning
+> warning 
 
 # 111
 
