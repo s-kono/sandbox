@@ -1,3 +1,7 @@
+* https://github.com/s-kono/sandbox
+
+# 0
+
 > **Note** note
 > note
 
@@ -16,8 +20,32 @@
 
 $$ F = G \frac{M m}{r^2}  $$
 
+## Mermaid
 
-# 111
+```mermaid
+sequenceDiagram
+    autonumber
+    actor client
+    participant form as 申請システム
+    actor support
+    participant system as 設定システム
+    client->>form: 申請
+    form->>support: 通知
+    Note left of support: チャット
+    form->>client: 受付連絡
+    Note left of form: メール
+    support->>support: 内容チェック
+    support->>form: (不正な場合) リジェクト
+    form->>client: (不正な場合) 却下連絡
+    Note left of form: メール
+    support->>system: 設定
+    system->>form: 完了通知
+    form->>client: 完了連絡
+    Note left of form: メール
+```
+
+
+# xxxx
 
 https://help.github.com/articles/about-readmes/
 
@@ -42,8 +70,6 @@ https://help.github.com/articles/about-readmes/
 ![image avatar][]
 
  * [local link](etc/AAAA.md)
-
-## 22222
 
 <details>
 <summary>details summary 構文</summary>
@@ -73,27 +99,3 @@ $ date
 [image avatar]: https://avatars2.githubusercontent.com/u/1390541?s=100&v=4 "avatar"
 
 ---
-
-## Mermaid
-
-```mermaid
-sequenceDiagram
-    autonumber
-    actor client
-    participant form as 申請システム
-    actor support
-    participant system as 設定システム
-    client->>form: 申請
-    form->>support: 通知
-    Note left of support: チャット
-    form->>client: 受付連絡
-    Note left of form: メール
-    support->>support: 内容チェック
-    support->>form: (不正な場合) リジェクト
-    form->>client: (不正な場合) 却下連絡
-    Note left of form: メール
-    support->>system: 設定
-    system->>form: 完了通知
-    form->>client: 完了連絡
-    Note left of form: メール
-```
