@@ -14,6 +14,21 @@
 > :warning: warning
 > warning 
 
+> [!CAUTION]
+> caution
+
+> [!WARNING]
+> Warning
+
+> [!IMPORTANT]
+> Important
+
+> [!TIP]
+> Tip
+
+> [!NOTE]
+> Note
+
 ---
 
 * https://github.blog/2022-05-19-math-support-in-markdown/
